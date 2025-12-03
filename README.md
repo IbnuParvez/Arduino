@@ -61,6 +61,9 @@ Arduino Ultrasonic Distance Sensor with
  · Bluetooth Module (HC-05 or HC-06)
  · Buzzer
  · Breadboard and Jumper Wires
+
+
+```markdown
  Wiring Diagram
  Here's how to connect the components to your Arduino:
  Component
@@ -96,7 +99,9 @@ other
  5V
  GND
  Pin 0 (Arduino RX)
- Pin 1 (Arduino TX)
+ Pin 1 (Arduino TX
+ ```
+
  Important Note on Bluetooth Connection: The SoftwareSerial library is configured to use Pin 0
  (RX) and Pin 1 (TX) on the Arduino. This can conflict with the USB connection used for programming the
  Arduino. It's a good practice to disconnect the Bluetooth module's VCC or TX/RX pins while
